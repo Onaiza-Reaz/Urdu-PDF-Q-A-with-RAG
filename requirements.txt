@@ -1,0 +1,28 @@
+# LangChain + HuggingFace Embeddings
+langchain
+langchain-core
+langchain-huggingface
+langchain-community
+
+# Vector store
+qdrant-client==1.8.1
+
+# HuggingFace Embeddings backend
+sentence-transformers==2.6.1
+transformers==4.41.2
+huggingface-hub==0.23.2
+
+# OCR and PDF tools
+pytesseract==0.3.10
+PyMuPDF==1.24.4
+Pillow==10.3.0
+
+# Google Gemini API
+google-generativeai==0.5.4
+
+# Optional extras
+streamlit==1.35.0  # Optional if using GUI or visualization
+python-dotenv==1.0.1  # Optional if storing secrets in .env
+
+# General-purpose utilities
+chromadb==0.4.24  # Optional for local vector store experiments
